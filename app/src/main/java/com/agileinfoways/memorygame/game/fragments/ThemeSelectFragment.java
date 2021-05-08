@@ -91,7 +91,7 @@ public class ThemeSelectFragment extends Fragment {
         setStars(themeEmoji);
         final Theme themeSports = Themes.createSportsTheme();
         setStars(themeSports);
-        final Theme themePhotos = Themes.createPhotoTheme();
+        final Theme themePhotos = Themes.createDinoTheme();
         setStars(themePhotos);
 
         animals.setOnClickListener(new View.OnClickListener() {

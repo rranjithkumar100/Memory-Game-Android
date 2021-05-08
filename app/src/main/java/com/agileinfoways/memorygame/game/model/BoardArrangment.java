@@ -1,6 +1,7 @@
 package com.agileinfoways.memorygame.game.model;
 
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.util.Log;
 
 import com.agileinfoways.memorygame.game.common.Shared;
@@ -38,7 +39,8 @@ public class BoardArrangment {
 			String drawableResourceName = string.substring(Themes.URI_DRAWABLE.length());
 			int drawableResourceId = Shared.context.getResources().getIdentifier(drawableResourceName, "drawable", Shared.context.getPackageName());
 			Bitmap bitmap = Utils.scaleDown(drawableResourceId, size, size);
-			return Utils.crop(bitmap, size, size);
+			return bitmap;
+			//return Utils.crop(bitmap, size, size);
 		}
 		return null;
 	}

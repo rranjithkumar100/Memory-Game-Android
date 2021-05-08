@@ -8,7 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/red_white_card"
-        android:scaleType="centerCrop" />
+        android:padding="@dimen/_5sdp"
+        android:scaleType="centerInside" />
 
     <RelativeLayout
         android:id="@+id/image_top"

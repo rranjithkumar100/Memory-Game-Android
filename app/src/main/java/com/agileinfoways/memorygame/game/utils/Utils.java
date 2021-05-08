@@ -5,11 +5,12 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.RectF;
 import android.media.ThumbnailUtils;
+import android.util.Log;
 
 import com.agileinfoways.memorygame.game.common.Shared;
 
 public class Utils {
-
+    private static final String TAG = "Utils";
 	public static int px(int dp) {
 		return (int) (Shared.context.getResources().getDisplayMetrics().density * dp);
 	}
@@ -23,6 +24,7 @@ public class Utils {
 	}
 
 	public static Bitmap crop(Bitmap source, int newHeight, int newWidth) {
+        Log.d(TAG, "crop: ");
 		int sourceWidth = source.getWidth();
 		int sourceHeight = source.getHeight();
 

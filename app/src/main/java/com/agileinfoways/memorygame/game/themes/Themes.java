@@ -87,15 +87,15 @@ public class Themes {
 		}
 		return theme;
 	}
-	public static Theme createPhotoTheme() {
+	public static Theme createDinoTheme() {
 		Theme theme = new Theme();
 		theme.id = 7;
-		theme.name = "Photos";
+		theme.name = "Dino";
 		theme.backgroundImageUrl = URI_DRAWABLE + "sports_level_bg";
 		theme.tileImageUrls = new ArrayList<String>();
 		// 40 drawables
 		for (int i = 1; i <= 28; i++) {
-			theme.tileImageUrls.add(URI_DRAWABLE + String.format("sports_%d", i));
+			theme.tileImageUrls.add(URI_DRAWABLE + String.format("dino_%d", i));
 		}
 		return theme;
 	}
