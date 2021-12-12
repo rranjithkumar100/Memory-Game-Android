@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Sammy-Ranjith Game</string>
+    <string name="app_name">Memory Game</string>
 
     <!--admob test id-->
     <string name="ad_mob_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>

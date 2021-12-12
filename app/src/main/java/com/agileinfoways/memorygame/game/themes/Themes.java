@@ -91,7 +91,7 @@ public class Themes {
 		Theme theme = new Theme();
 		theme.id = 7;
 		theme.name = "Dino";
-		theme.backgroundImageUrl = URI_DRAWABLE + "sports_level_bg";
+		theme.backgroundImageUrl = URI_DRAWABLE + "dino_bg";
 		theme.tileImageUrls = new ArrayList<String>();
 		// 40 drawables
 		for (int i = 1; i <= 28; i++) {
