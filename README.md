@@ -1,6 +1,7 @@
 # Memory-Game-Android
 
 This application developed for Kids. They can improve their memory power with this simple game. 
+I developed memory game engine, so you can add next modules easily. 
 
 # Intial page
 
